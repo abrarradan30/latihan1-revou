@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<h1>Form Belajar</h1>
+    <p>Ini adalah website latihan pertama</p>
+    <form action="https://www.google.com/" method="POST">
+        <table>
+            <tr>
+                <th>Nama</th>
+                <td>:</td>
+                <td> <input id="nama" type="text" placeholder="Nama" style="width: 110%;"/></td>
+            </tr>
+            <tr>
+                <th>Tempat Lahir</th>
+                <td>:</td>
+                <td> <input id="tempat_lahir" type="text" placeholder="Tempat Lahir" style="width: 110%;"/></td>
+            </tr>
+            <tr>
+                <th>Jenis Kelamin</th>
+                <td>:</td>
+                <td> 
+                    <input id="jk_laki" type="radio" name="jenis_kelamin" value="l" checked/> 
+                    <label for="jk_laki">Laki-Laki</label>
+        
+                    <input id="jk_perempuan" type="radio" name="jenis_kelamin" value="p"/> 
+                    <label for="jk_perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Pesan</th>
+                <td>:</td>
+                <td> <textarea id="pesan" rows="5" placeholder="Pesan" style="width: 110%;"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="submit" value="Submit" style="width: 108%;"/>
+                </td>
+            </tr>
+        </table>
+    </form> 
+</body>
+</html>
